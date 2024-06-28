@@ -13,6 +13,7 @@
 		ABBCEED32C2F4EFF000F808E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ABBCEED22C2F4EFF000F808E /* Base */; };
 		ABBCEED52C2F4F01000F808E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBCEED42C2F4F01000F808E /* Assets.xcassets */; };
 		ABBCEED82C2F4F01000F808E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ABBCEED72C2F4F01000F808E /* Base */; };
+		ABBCEEE02C2F5567000F808E /* CoverterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCEEDF2C2F5567000F808E /* CoverterLogic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		ABBCEED42C2F4F01000F808E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABBCEED72C2F4F01000F808E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBCEED92C2F4F01000F808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBCEEDF2C2F5567000F808E /* CoverterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverterLogic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +62,28 @@
 				ABBCEECD2C2F4EFF000F808E /* SceneDelegate.swift */,
 				ABBCEECF2C2F4EFF000F808E /* ViewController.swift */,
 				ABBCEED12C2F4EFF000F808E /* Main.storyboard */,
+				ABBCEEE12C2F5570000F808E /* Model */,
+				ABBCEEE22C2F558C000F808E /* View */,
 				ABBCEED42C2F4F01000F808E /* Assets.xcassets */,
 				ABBCEED62C2F4F01000F808E /* LaunchScreen.storyboard */,
 				ABBCEED92C2F4F01000F808E /* Info.plist */,
 			);
 			path = CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		ABBCEEE12C2F5570000F808E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ABBCEEDF2C2F5567000F808E /* CoverterLogic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ABBCEEE22C2F558C000F808E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +159,7 @@
 			files = (
 				ABBCEED02C2F4EFF000F808E /* ViewController.swift in Sources */,
 				ABBCEECC2C2F4EFF000F808E /* AppDelegate.swift in Sources */,
+				ABBCEEE02C2F5567000F808E /* CoverterLogic.swift in Sources */,
 				ABBCEECE2C2F4EFF000F808E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
