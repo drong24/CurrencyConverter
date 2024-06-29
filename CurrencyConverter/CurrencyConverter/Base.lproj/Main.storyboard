@@ -164,13 +164,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9U2-En-Awp">
-                                <rect key="frame" x="176" y="522.33333333333337" width="41.333333333333343" height="20.333333333333371"/>
+                                <rect key="frame" x="176" y="507.33333333333331" width="41.333333333333343" height="20.333333333333314"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="41" translatesAutoresizingMaskIntoConstraints="NO" id="6M9-1T-UMk">
-                                <rect key="frame" x="30" y="622.66666666666663" width="333" height="204.33333333333337"/>
+                                <rect key="frame" x="30" y="607.66666666666663" width="333" height="204.33333333333337"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="124" translatesAutoresizingMaskIntoConstraints="NO" id="TgG-Oc-tdu">
                                         <rect key="frame" x="0.0" y="0.0" width="333" height="20.333333333333332"/>
@@ -248,7 +248,7 @@
                         <constraints>
                             <constraint firstItem="6M9-1T-UMk" firstAttribute="top" secondItem="9U2-En-Awp" secondAttribute="bottom" constant="80" id="3Mf-N2-zV2"/>
                             <constraint firstItem="9U2-En-Awp" firstAttribute="centerX" secondItem="Nsq-xc-bii" secondAttribute="centerX" id="6GW-6C-GtL"/>
-                            <constraint firstItem="wel-l9-Cd8" firstAttribute="bottom" secondItem="6M9-1T-UMk" secondAttribute="bottom" constant="15" id="Ep5-fU-RP9"/>
+                            <constraint firstItem="wel-l9-Cd8" firstAttribute="bottom" secondItem="6M9-1T-UMk" secondAttribute="bottom" constant="30" id="Ep5-fU-RP9"/>
                             <constraint firstItem="wel-l9-Cd8" firstAttribute="trailing" secondItem="6M9-1T-UMk" secondAttribute="trailing" constant="30" id="W5H-xz-vxB"/>
                             <constraint firstItem="6M9-1T-UMk" firstAttribute="leading" secondItem="wel-l9-Cd8" secondAttribute="leading" constant="30" id="bS8-ni-2LA"/>
                         </constraints>
