@@ -33,9 +33,10 @@ class CurrencyView: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        USDAmountLabel.text = "Amount in USD $" + String(format: "%.2f", Double(usdAmout)!)
         EuroAmountLabel.text = eruoAmount
         YenAmountLabel.text = yenAmount
-        CADAmountLabel.text = yenAmount
+        CADAmountLabel.text = cadAmount
         KronaAmountLabel.text = kronaAmount
     }
     

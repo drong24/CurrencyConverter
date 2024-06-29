@@ -65,6 +65,7 @@ class ViewController: UIViewController {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
         let navigation = segue.destination as! CurrencyView
+        navigation.usdAmout = usdAmout
         navigation.eruoAmount = eruoAmount
         navigation.yenAmount = yenAmount
         navigation.cadAmount = cadAmount

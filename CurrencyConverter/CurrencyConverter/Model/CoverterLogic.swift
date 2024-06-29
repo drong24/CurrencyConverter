@@ -11,19 +11,23 @@ import Foundation
 
 struct ConverterLogic {
     func convertCAD(amount: String) -> String {
-        return "0"
+        let result = Double(amount)! * 1.37
+        return String(format: "%.2f", result)
     }
     
     func convertYen(amount: String) -> String {
-        return "0"
+        let result = Double(amount)! * 160.88
+        return String(format: "%.2f", result)
     }
     
     func convertEuro(amount: String) -> String {
-        return "0"
+        let result = Double(amount)! * 0.93
+        return String(format: "%.2f", result)
     }
     
     func convertKrona(amount: String) -> String {
-        return "0"
+        let result = Double(amount)! * 10.61
+        return String(format: "%.2f", result)
     }
     
     func checkInt(input: String) -> Bool {
