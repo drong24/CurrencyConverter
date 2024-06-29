@@ -7,8 +7,26 @@
 
 import Foundation
 
+
+
 struct ConverterLogic {
-    func convertCurrency(amount: Double, convertOne: Bool, convertTwo: Bool, convertThree: Bool, convertFour: Bool) {
-        
+    func convertCAD(amount: String) -> String {
+        return "0"
+    }
+    
+    func convertYen(amount: String) -> String {
+        return "0"
+    }
+    
+    func convertEuro(amount: String) -> String {
+        return "0"
+    }
+    
+    func convertKrona(amount: String) -> String {
+        return "0"
+    }
+    
+    func checkInt(input: String) -> Bool {
+        return Int(input) != nil
     }
 }

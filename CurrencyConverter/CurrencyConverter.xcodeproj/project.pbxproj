@@ -14,6 +14,7 @@
 		ABBCEED52C2F4F01000F808E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBCEED42C2F4F01000F808E /* Assets.xcassets */; };
 		ABBCEED82C2F4F01000F808E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = ABBCEED72C2F4F01000F808E /* Base */; };
 		ABBCEEE02C2F5567000F808E /* CoverterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCEEDF2C2F5567000F808E /* CoverterLogic.swift */; };
+		ABBCEEE42C308E40000F808E /* CurrencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBCEEE32C308E40000F808E /* CurrencyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ABBCEED72C2F4F01000F808E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBCEED92C2F4F01000F808E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABBCEEDF2C2F5567000F808E /* CoverterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverterLogic.swift; sourceTree = "<group>"; };
+		ABBCEEE32C308E40000F808E /* CurrencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,6 @@
 			children = (
 				ABBCEECB2C2F4EFF000F808E /* AppDelegate.swift */,
 				ABBCEECD2C2F4EFF000F808E /* SceneDelegate.swift */,
-				ABBCEECF2C2F4EFF000F808E /* ViewController.swift */,
 				ABBCEED12C2F4EFF000F808E /* Main.storyboard */,
 				ABBCEEE12C2F5570000F808E /* Model */,
 				ABBCEEE22C2F558C000F808E /* View */,
@@ -82,6 +83,8 @@
 		ABBCEEE22C2F558C000F808E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ABBCEECF2C2F4EFF000F808E /* ViewController.swift */,
+				ABBCEEE32C308E40000F808E /* CurrencyView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				ABBCEED02C2F4EFF000F808E /* ViewController.swift in Sources */,
 				ABBCEECC2C2F4EFF000F808E /* AppDelegate.swift in Sources */,
+				ABBCEEE42C308E40000F808E /* CurrencyView.swift in Sources */,
 				ABBCEEE02C2F5567000F808E /* CoverterLogic.swift in Sources */,
 				ABBCEECE2C2F4EFF000F808E /* SceneDelegate.swift in Sources */,
 			);
